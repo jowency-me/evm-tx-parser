@@ -1,0 +1,61 @@
+{
+  "blockNumber": 24994355,
+  "category": "Stake",
+  "chainId": 1,
+  "description": "Lido Stake transaction on Ethereum",
+  "explorerURL": "https://etherscan.io/tx/0xb617352bdeb0fce2ac75da77a250d0807762d608ba986ef03d24a35b9c7cda5e",
+  "from": "0xe9aAf0D687De00F07e16E29d71F300FDfD47Da95",
+  "raw": {
+    "receipt": {
+      "type": "0x2",
+      "root": "0x",
+      "status": "0x1",
+      "cumulativeGasUsed": "0x57a920",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000400000000000000000000000000000000000000000000000000000000900000000000000000000010000000000000000000000000000080000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000002000000100000000000000000000000000000000000000000000000000000000000000000000000008000400000000000000000000000000000000000",
+      "logs": [
+        {
+          "address": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+          "topics": [
+            "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+            "0x000000000000000000000000e9aaf0d687de00f07e16e29d71f300fdfd47da95",
+            "0x000000000000000000000000e3478b0bb1a5084567c319096437924948be1964"
+          ],
+          "data": "0x000000000000000000000000000000000000000000000000000286fa165a4cc6",
+          "blockNumber": "0x17d6233",
+          "transactionHash": "0xb617352bdeb0fce2ac75da77a250d0807762d608ba986ef03d24a35b9c7cda5e",
+          "transactionIndex": "0x17",
+          "blockHash": "0x4a2430b7f6987cd203f4746bcbd82294e1c4800b87e56c440f2dbc92664eb0c2",
+          "blockTimestamp": "0x69f38e2b",
+          "logIndex": "0xac",
+          "removed": false
+        }
+      ],
+      "transactionHash": "0xb617352bdeb0fce2ac75da77a250d0807762d608ba986ef03d24a35b9c7cda5e",
+      "contractAddress": "0x0000000000000000000000000000000000000000",
+      "gasUsed": "0x8734",
+      "effectiveGasPrice": "0x12dd24462",
+      "blockHash": "0x4a2430b7f6987cd203f4746bcbd82294e1c4800b87e56c440f2dbc92664eb0c2",
+      "blockNumber": "0x17d6233",
+      "transactionIndex": "0x17"
+    },
+    "tx": {
+      "type": "0x2",
+      "chainId": "0x1",
+      "nonce": "0x4a5",
+      "to": "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
+      "gas": "0x889b",
+      "gasPrice": null,
+      "maxPriorityFeePerGas": "0x7d2b7501",
+      "maxFeePerGas": "0x139d2c659",
+      "value": "0x0",
+      "input": "0xa9059cbb000000000000000000000000e3478b0bb1a5084567c319096437924948be1964000000000000000000000000000000000000000000000000000286fa165a4cc6",
+      "accessList": [],
+      "v": "0x0",
+      "r": "0xd40ebae6e460af6dbb84ad30a68f7d9d1aa0abe69cd0cb5a7eb9f76600124353",
+      "s": "0x5dda1fa2ceb6b8dc10de4e5995b3c626ee50e5c427c6dc4f42da58e2c1baed09",
+      "yParity": "0x0",
+      "hash": "0xb617352bdeb0fce2ac75da77a250d0807762d608ba986ef03d24a35b9c7cda5e"
+    }
+  },
+  "txHash": "0xb617352bdeb0fce2ac75da77a250d0807762d608ba986ef03d24a35b9c7cda5e"
+}

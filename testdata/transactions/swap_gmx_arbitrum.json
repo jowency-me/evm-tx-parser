@@ -1,0 +1,61 @@
+{
+  "blockNumber": 457413066,
+  "category": "Swap",
+  "chainId": 42161,
+  "description": "GMX Swap transaction on Arbitrum",
+  "explorerURL": "https://arbiscan.io/tx/0xd228afcb6d69270985c684fcdd5907ea7c50952eb8486262904bdcab94fe45af",
+  "from": "0xde5D26Ad782C0084664309a07040f5C69a20092C",
+  "raw": {
+    "receipt": {
+      "type": "0x2",
+      "root": "0x",
+      "status": "0x1",
+      "cumulativeGasUsed": "0xe630",
+      "logsBloom": "0x00000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000020000000200000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000080000102000000000000000000000010000000000000000000000000000000000000010000000000000000000000",
+      "logs": [
+        {
+          "address": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",
+          "topics": [
+            "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+            "0x000000000000000000000000de5d26ad782c0084664309a07040f5c69a20092c",
+            "0x0000000000000000000000002cfa72e7f58dc82b990529450ffa83791db7d8e2"
+          ],
+          "data": "0x000000000000000000000000000000000000000000003a0e661c0a41bb0ce000",
+          "blockNumber": "0x1b4391ca",
+          "transactionHash": "0xd228afcb6d69270985c684fcdd5907ea7c50952eb8486262904bdcab94fe45af",
+          "transactionIndex": "0x1",
+          "blockHash": "0x9b39fb3ad5793a388698d0196274feeea474476d43328d6a1988e6340fafd7c1",
+          "blockTimestamp": "0x69f15ba9",
+          "logIndex": "0x0",
+          "removed": false
+        }
+      ],
+      "transactionHash": "0xd228afcb6d69270985c684fcdd5907ea7c50952eb8486262904bdcab94fe45af",
+      "contractAddress": "0x0000000000000000000000000000000000000000",
+      "gasUsed": "0xe630",
+      "effectiveGasPrice": "0x1318ac0",
+      "blockHash": "0x9b39fb3ad5793a388698d0196274feeea474476d43328d6a1988e6340fafd7c1",
+      "blockNumber": "0x1b4391ca",
+      "transactionIndex": "0x1"
+    },
+    "tx": {
+      "type": "0x2",
+      "chainId": "0xa4b1",
+      "nonce": "0x2f2",
+      "to": "0xcafcd85d8ca7ad1e1c6f82f651fa15e33aefd07b",
+      "gas": "0x11b75",
+      "gasPrice": null,
+      "maxPriorityFeePerGas": "0x4",
+      "maxFeePerGas": "0x17d9590",
+      "value": "0x0",
+      "input": "0x095ea7b30000000000000000000000002cfa72e7f58dc82b990529450ffa83791db7d8e2000000000000000000000000000000000000000000003a0e661c0a41bb0ce000",
+      "accessList": [],
+      "v": "0x0",
+      "r": "0x585e9246f56e41505128f834274626a9eb4bf03094c1405cde35b3527e1c08f5",
+      "s": "0x1c6317cdf1fb605cd4a858dc5c66b8f41ea186bf5fcd9e79c78b455f8ab05ccb",
+      "yParity": "0x0",
+      "hash": "0xd228afcb6d69270985c684fcdd5907ea7c50952eb8486262904bdcab94fe45af"
+    }
+  },
+  "txHash": "0xd228afcb6d69270985c684fcdd5907ea7c50952eb8486262904bdcab94fe45af"
+}
