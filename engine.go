@@ -65,6 +65,17 @@ func (e *Engine) ClassifyTx(ctx context.Context, txHash common.Hash) (*semtypes.
 	return e.classifier.Classify(ctx, b), nil
 }
 
+// ClassifyBundle classifies a pre-fetched transaction bundle (tx + receipt + sender),
+// avoiding an extra RPC round-trip when the caller already has the data — e.g. a
+// webhook pipeline that parsed the block payload and has the calldata + logs in hand.
+// This is the same classification as ClassifyTx but without the chain fetch.
+func (e *Engine) ClassifyBundle(ctx context.Context, b *chain.TxBundle) (*semtypes.Action, error) {
+	if b == nil {
+		return nil, fmt.Errorf("classify bundle: nil bundle")
+	}
+	return e.classifier.Classify(ctx, b), nil
+}
+
 // SignatureResolver returns the signature resolver (callers may prime it or look up sigs directly).
 func (e *Engine) SignatureResolver() *resolver.SignatureResolver { return e.sigRes }
 
